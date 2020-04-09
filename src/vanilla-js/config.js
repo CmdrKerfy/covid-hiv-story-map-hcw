@@ -42,7 +42,7 @@ var config = {
         {
             id: 'Countrywide-2',
             image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/src/vanilla-js/images/kenyahos.jpg',
-            description: 'Please note that in the following maps, the blue circles represent doctor capacity by county. The red circles represent nurse capacity by county.',
+            description: 'Please note that in the following maps, the BLUE circles represent doctor capacity by county. The RED circles represent nurse capacity by county.',
             location: {
                 center: [36.53520, 1.31810],
                 zoom: 5.71,
@@ -69,10 +69,10 @@ var config = {
         },
 
         {
-            id: 'Week1',
+            id: 'Week-1',
             title: 'WEEK 1 PROJECTION',
             image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/src/vanilla-js/images/week1combo.png',
-            description: 'The ECONOMIC BREAKDOWN',
+            description: 'In week one into an outbreak, our capacity will be already be stressed but still generally manageable.',
             location: {
                 center: [36.53520, 1.31810],
                 zoom: 5.71,
@@ -99,33 +99,62 @@ var config = {
         },
 
         {
-            id: 'Saurimo-4',
-            title: 'Saurimo',
-            image: 'https://d2drhpw56bvoc4.cloudfront.net/wp-content/uploads/2016/07/26134356/201607_WASH-Bie_Edson-Monteiro2.jpg',
-            description: 'The health facility compared to fake neighborhoods',
+            id: 'Week-1N',
+            image: 
+            description: 'By week 1, total staff capacity in Isiolo and Lamu will likely be non-existent.',
             location: {
-                center: [20.38438, -9.67590],
-                zoom: 12.42,
-                pitch: 19.00,
-                bearing: 0.16
+                center: [39.21280, -0.23952],
+                zoom: 7.66,
+                pitch: 0.00,
+                bearing: 0.00
             },
             onChapterEnter: [{
-                    layer: 'Saurimo Color Health',
-                    opacity: 0.65
-                },
-                {
-                    layer: 'Saurimo Fake Treatment',
-                    opacity: 0.65
-                }
-            ],
+                layer: 'Kenya-NONE',
+                opacity: 0.45
+            },
+            {
+                layer: 'April 8th - Nurse CURR',
+                opacity: 0.45
+            }
+        ],
             onChapterExit: [{
-                layer: 'Saurimo Fake Treatment',
+                layer: 'Kenya-NONE',
+                opacity: 0.
+            },
+            {
+                layer: 'April 8th - Nurse CURR',
                 opacity: 0
-                },
-                {
-                    layer: 'Saurimo Color Health',
-                    opacity: 0      
-                }]
+            }]
+        },
+
+        {
+            id: 'Week-2',
+            title: 'WEEK 2 PROJECTION',
+            image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/src/vanilla-js/images/week2chart.png',
+            description: 'The health facility compared to fake neighborhoods',
+            location: {
+                center: [36.53520, 1.31810],
+                zoom: 5.71,
+                pitch: 2.50,
+                bearing: 0.00
+            },
+            onChapterEnter: [{
+                layer: 'April 8th - Doc Week2',
+                opacity: 0.45
+            },
+            {
+                layer: 'April 8th - Nurse Week2',
+                opacity: 0.45
+            }
+        ],
+            onChapterExit: [{
+                layer: 'April 8th - Doc Week2',
+                opacity: 0.
+            },
+            {
+                layer: 'April 8th - Nurse Week2',
+                opacity: 0
+            }]
         },
 
         {
