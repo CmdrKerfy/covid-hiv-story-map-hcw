@@ -7,16 +7,16 @@ var config = {
     title: 'THE EFFECTS OF COVID ON HIV PROGRAMMING IN KENYA',
     subtitle: '[6 Week Projections Based on PEPFAR Modelling]',
     // byline: 'By PEPFAR',
-    footer: 'Source: All information is fake and inaccurate.',
+    footer: 'Source: PEPFAR.',
     chapters: [{
-            id: 'Saurimo',
-            title: 'Saurimo',
+            id: 'Countrywide-1',
+            title: 'The Waiting Game',
             // video: 'https://www.youtube.com/watch?v=7s5WrI3bZ8o',
-            image: '/images/COVIDCases.png',
-            description: 'The capital of Lunda Sul, a majority of the province population lives here.',
+            image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/src/vanilla-js/images/COVIDCases.png',
+            description: 'If not properly responded to, based on current projections, COVID-19 is expected to have a significant affect on existing available healthcare staff within Kenya. This in turn will have many ripple affects including current PEPFAR programming.',
             location: {
-                center: [38.02700, 0.29796],
-                zoom: 6.11,
+                center: [36.48993, 0.67789],
+                zoom: 5.56,
                 pitch: 2.50,
                 bearing: 0.00
             },
