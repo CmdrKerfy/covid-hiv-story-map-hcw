@@ -4,21 +4,21 @@ var config = {
     showMarkers: false,
     theme: 'red',
     alignment: 'left',
-    title: '[FAKE] Health Facility Status in Saurimo, Angola',
-    subtitle: '[FAKE] Success and Failures in an Expanding Program',
-    byline: 'By PEPMAR/CWC/Angola',
+    title: 'THE EFFECTS OF COVID ON HIV PROGRAMMING IN KENYA',
+    subtitle: '[6 Week Projections Based on PEPFAR Modelling]',
+    // byline: 'By PEPFAR',
     footer: 'Source: All information is fake and inaccurate.',
     chapters: [{
             id: 'Saurimo',
             title: 'Saurimo',
             // video: 'https://www.youtube.com/watch?v=7s5WrI3bZ8o',
-            image: 'https://d2drhpw56bvoc4.cloudfront.net/wp-content/uploads/2016/07/26134356/201607_WASH-Bie_Edson-Monteiro2.jpg',
+            image: '/images/COVIDCases.png',
             description: 'The capital of Lunda Sul, a majority of the province population lives here.',
             location: {
-                center: [20.38438, -9.67590],
-                zoom: 12.42,
-                pitch: 19.00,
-                bearing: 0.16
+                center: [38.02700, 0.29796],
+                zoom: 6.11,
+                pitch: 2.50,
+                bearing: 0.00
             },
             onChapterEnter: [{
                 layer: 'Saurimo Health Facilities',
