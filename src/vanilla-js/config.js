@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/kerfy/ck3sxk1cp0ja41cmotxd0gspb',
+    style: 'mapbox://styles/kerfy/ck8sadhtn0uip1inskm9tqsa1',
     accessToken: 'pk.eyJ1Ijoia2VyZnkiLCJhIjoiY2szOTE0dG43MDE4dDNqbzZ4ajdld3A1eCJ9.IYIY3O7YU3fZvR2izUZUGQ',
     showMarkers: false,
     theme: 'red',
@@ -15,42 +15,56 @@ var config = {
             image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/src/vanilla-js/images/COVIDCases.png',
             description: 'If not properly responded to, based on current projections, COVID-19 is expected to have a significant affect on existing available healthcare staff within Kenya. This in turn will have many ripple affects including current PEPFAR programming.',
             location: {
-                center: [36.48993, 0.67789],
-                zoom: 5.56,
+                center: [36.53520, 1.31810],
+                zoom: 5.71,
                 pitch: 2.50,
                 bearing: 0.00
             },
             onChapterEnter: [{
-                layer: 'Saurimo Health Facilities',
+                layer: 'April 8th - Doc CURR',
                 opacity: 0.65
-            }],
+            },
+            {
+                layer: 'April 8th - Nurse CURR',
+                opacity: 0.65
+            }
+        ],
             onChapterExit: [{
-                layer: 'Saurimo Health Facilities',
-                opacity: 0
+                layer: 'April 8th - Doc CURR',
+                opacity: 0.65
+            },
+            {
+                layer: 'April 8th - Nurse CURR',
+                opacity: 0.65
             }]
-        },
+    },
 
         {
-            id: 'Saurimo-2',
+            id: 'Countrywide-2',
+            image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/src/vanilla-js/images/COVIDCases.png',
             description: 'Within the city limits are six health faclities with one a few kilometers north of the city. Based on the last in-province assessment, three facilities are preforming above expectations (green), two are preforming at expectation (yellow), and two are preforming significantly below expectations.',
             location: {
-                center: [20.38438, -9.67590],
-                zoom: 12.42,
-                pitch: 19.00,
-                bearing: 0.16
+                center: [36.53520, 1.31810],
+                zoom: 5.71,
+                pitch: 2.50,
+                bearing: 0.00
             },
             onChapterEnter: [{
-                    layer: 'S Health Labels',
-                    opacity: 1
-                },
-                {
-                    layer: 'Saurimo Color Health',
-                    opacity: 0.65
-                }
-            ],
+                layer: 'April 8th - Doc CURR',
+                opacity: 0.65
+            },
+            {
+                layer: 'April 8th - Nurse CURR',
+                opacity: 0.65
+            }
+        ],
             onChapterExit: [{
-                layer: 'Saurimo Color Health',
-                opacity: 0
+                layer: 'April 8th - Doc CURR',
+                opacity: 0.65
+            },
+            {
+                layer: 'April 8th - Nurse CURR',
+                opacity: 0.65
             }]
         },
 
