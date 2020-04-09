@@ -13,7 +13,7 @@ var config = {
             title: 'The Waiting Game',
             // video: 'https://www.youtube.com/watch?v=7s5WrI3bZ8o',
             image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/src/vanilla-js/images/COVIDCases.png',
-            description: 'If not properly responded to, based on current projections, COVID-19 is expected to have a significant affect on existing available healthcare staff within Kenya. This in turn will have many ripple affects including current PEPFAR programming.',
+            description: 'Based on current models, COVID-19 is expected to have a significant affect on existing available healthcare staff within Kenya. The following information is a projection of the strain a possible outbreak will have on exisiting healthcare capacities. ',
             location: {
                 center: [36.53520, 1.31810],
                 zoom: 5.71,
@@ -22,27 +22,27 @@ var config = {
             },
             onChapterEnter: [{
                 layer: 'April 8th - Doc CURR',
-                opacity: 0.65
+                opacity: 0.45
             },
             {
                 layer: 'April 8th - Nurse CURR',
-                opacity: 0.65
+                opacity: 0.45
             }
         ],
             onChapterExit: [{
                 layer: 'April 8th - Doc CURR',
-                opacity: 0.65
+                opacity: 0.45
             },
             {
                 layer: 'April 8th - Nurse CURR',
-                opacity: 0.65
+                opacity: 0.45
             }]
     },
 
         {
             id: 'Countrywide-2',
-            image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/src/vanilla-js/images/COVIDCases.png',
-            description: 'Within the city limits are six health faclities with one a few kilometers north of the city. Based on the last in-province assessment, three facilities are preforming above expectations (green), two are preforming at expectation (yellow), and two are preforming significantly below expectations.',
+            image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/src/vanilla-js/images/kenyahos.jpg',
+            description: 'While these models are susceptible to change, the hope is to inform our partners of the possible impact a COVID-19 outbreak will have on PEPFAR programming nationwide.',
             location: {
                 center: [36.53520, 1.31810],
                 zoom: 5.71,
@@ -51,53 +51,53 @@ var config = {
             },
             onChapterEnter: [{
                 layer: 'April 8th - Doc CURR',
-                opacity: 0.65
+                opacity: 0.45
             },
             {
                 layer: 'April 8th - Nurse CURR',
-                opacity: 0.65
+                opacity: 0.45
             }
         ],
             onChapterExit: [{
                 layer: 'April 8th - Doc CURR',
-                opacity: 0.65
+                opacity: 0.
             },
             {
                 layer: 'April 8th - Nurse CURR',
-                opacity: 0.65
+                opacity: 0
             }]
         },
 
         {
-            id: 'Saurimo-3',
-            title: 'Saurimo',
+            id: 'Week1',
+            title: 'WEEK 1 Projection',
             image: 'https://d2drhpw56bvoc4.cloudfront.net/wp-content/uploads/2016/07/26134356/201607_WASH-Bie_Edson-Monteiro2.jpg',
             description: 'The ECONOMIC BREAKDOWN',
             location: {
-                center: [20.38438, -9.67590],
-                zoom: 12.42,
-                pitch: 19.00,
-                bearing: 0.16
+                center: [36.53520, 1.31810],
+                zoom: 5.71,
+                pitch: 2.50,
+                bearing: 0.00
             },
             onChapterEnter: [{
-                    layer: 'Saurimo Color Health',
-                    opacity: 0.65
-                },
-                {
-                    layer: 'Saurimo Fake Economic',
-                    opacity: 0.65
-                }
-            ],
+                layer: 'April 8th - Doc Week1',
+                opacity: 0.45
+            },
+            {
+                layer: 'April 8th - Nurse Week1',
+                opacity: 0.45
+            }
+        ],
             onChapterExit: [{
-                    layer: 'Saurimo Fake Economic',
-                    opacity: 0
-                },
-                {
-                    layer: 'Saurimo Color Health',
-                    opacity: 0
-                }
-            ]
+                layer: 'April 8th - Doc Week1',
+                opacity: 0.
+            },
+            {
+                layer: 'April 8th - Nurse Week1',
+                opacity: 0
+            }]
         },
+
         {
             id: 'Saurimo-4',
             title: 'Saurimo',
