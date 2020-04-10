@@ -219,7 +219,7 @@ var config = {
 
         {
             id: 'Week5',
-            title: 'WEEK 5 PROJECTION',
+            title: 'WEEK 5 & 6 PROJECTION',
             image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/src/vanilla-js/images/COVIDVisitsHIV.png',
             description: 'By week 5 and 6, the outbreak has caused an unsustainable strain on exisiting healthcare worker capacity.',
             location: {
