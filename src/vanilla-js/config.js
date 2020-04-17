@@ -34,8 +34,8 @@ var config = {
             // Outstanding: 1) needs a small legend (doctors= blue; nurses=red) added to call out box.  2) Maps added as outlined in description.
             id: 'Aspect-1',
             title: 'An Expected Decrease in Available Healthcare Workers',
-            image: 'img/WeekOne.png',
-            description: 'RED = Nurse Capacity <br> BLUE = Doctor Capacity <br><br> If current trends continue, COVID-19 will likely significantly reduce the number of available healthcare workers in Kenya. As infections increase, more and more healthcare workers will become affected and be unable to provide healthcare services. The map in this box shows the number of available doctors and nurses currently, and the large map shows the projected number of available doctors and nurses in six weeks.',
+            image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/img/WeekOne.png',
+            description: 'If current trends continue, COVID-19 will likely significantly reduce the number of available healthcare workers in Kenya. As infections increase, more and more healthcare workers will become affected and be unable to provide healthcare services. The map in this box shows the number of available doctors and nurses currently, and the large map shows the projected number of available doctors and nurses in six weeks.',
             location: {
                 center: [35.40804, -0.19256],
                 zoom: 5.71,
@@ -112,43 +112,12 @@ var config = {
                 opacity: 0
             }]
         },
-
-        {
-            //Outstanding: 1) add map as outlined in description 2)picture/graphs needs to be replaced with something
-            id: 'Aspect3-Week-2',
-            title: 'Week Two Health Visits',
-            // image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/src/vanilla-js/images/week1combo.png',
-            description: 'By week two, the increase in health visit demand by the total population will begin to strain the limited number of available healthcare workers as the number of visits shift sharply upward.',
-            location: {
-                center: [35.40804, -0.19256],
-                zoom: 5.71,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            onChapterEnter: [{
-                layer: 'April 8th - Doc Week2',
-                opacity: 0.45
-            },
-            {
-                layer: 'April 8th - Nurse Week2',
-                opacity: 0.45
-            }
-        ],
-            onChapterExit: [{
-                layer: 'April 8th - Doc Week2',
-                opacity: 0.
-            },
-            {
-                layer: 'April 8th - Nurse Week2',
-                opacity: 0
-            }]
-        },
     
         {
             //Outstanding: 1) add map as outlined in description 2)picture/graphs needs to be replaced with something
             id: 'Aspect3-Week-Two',
             title: 'Week Two Health Visits',
-            image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/src/vanilla-js/images/week3chart.png',
+            image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/img/PLHIV_Visits.png',
             description: 'By week two, the increase in health visit demand by the total population will begin to strain the limited number of available healthcare workers as the number of visits shift sharply upward.',
             location: {
                 center: [35.40804, -0.19256],
@@ -179,7 +148,7 @@ var config = {
             //Outstanding: map needs to be updated to reflect week three of aspect 3 2)new image neededid: 'Week4',
             id: 'Aspect3-Week-Three',
             title: 'Week Three Health Visits',
-            image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/src/vanilla-js/images/week3chart.png',
+            //image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/src/vanilla-js/images/week3chart.png',
             description: 'By week three, the demand is already far outpacing capacity.',
             location: {
                 center: [35.40804, -0.19256],
