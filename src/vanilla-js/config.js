@@ -21,7 +21,7 @@ var config = {
             },
             onChapterEnter: [{
                 layer: 'April 8th - Doc CURR',
-                opacity: 0.45
+                opacity: 0
             }
         ],
             onChapterExit: [{
@@ -34,7 +34,7 @@ var config = {
             // Outstanding: 1) needs a small legend (doctors= blue; nurses=red) added to call out box.  2) Maps added as outlined in description.
             id: 'Aspect-1',
             title: 'An Expected Decrease in Available Healthcare Workers',
-            image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/src/vanilla-js/images/kenyahos.jpg',
+            image: 'img/WeekOne.png',
             description: 'RED = Nurse Capacity <br> BLUE = Doctor Capacity <br><br> If current trends continue, COVID-19 will likely significantly reduce the number of available healthcare workers in Kenya. As infections increase, more and more healthcare workers will become affected and be unable to provide healthcare services. The map in this box shows the number of available doctors and nurses currently, and the large map shows the projected number of available doctors and nurses in six weeks.',
             location: {
                 center: [35.40804, -0.19256],
@@ -43,28 +43,26 @@ var config = {
                 bearing: 0.00
             },
             onChapterEnter: [{
-                layer: 'April 8th - Doc CURR',
+                layer: 'April 8th - Doc Week5-6',
                 opacity: 0.45
             },
             {
-                layer: 'April 8th - Nurse CURR',
+                layer: 'April 8th - Nurse Week5-6',
                 opacity: 0.45
             }
         ],
             onChapterExit: [{
-                layer: 'April 8th - Doc CURR',
+                layer: 'April 8th - Doc Week5-6',
                 opacity: 0.
             },
             {
-                layer: 'April 8th - Nurse CURR',
+                layer: 'April 8th - Nurse Week5-6',
                 opacity: 0
             }]
         },
 
         {
             id: 'Lamu',
-            //title: 'WEEK 1 PROJECTION',
-            //image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/src/vanilla-js/images/week1combo.png',
             description: 'By week 1, total staff capacity in Isiolo and Lamu will be critically low to non-existent.',
             location: {
                 center: [37.40658, -0.17094],
@@ -86,7 +84,7 @@ var config = {
             //Outstanding: 1) add the graph "number of COVID visits: HIV population" from the impact model 2) add the map as outlined in description
             id: 'Aspect3-HIVgraph',
             title: 'An Expected Increase in Health Visits by People Living with HIV',
-            image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/src/vanilla-js/images/week1combo.png',
+            image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/src/vanilla-js/images/kenyahos.jpg',
             description: 'While the number of nurses and doctors will decrease, the number of health visits will dramatically increase as shown by projected number of COVID visits just by people living with HIV in the graph.  The map shows the number of health visits by the total population in week one.',
             location: {
                 center: [35.40804, -0.19256],
@@ -242,9 +240,9 @@ var config = {
         {
             //Outstanding: 1)needs updated map (aspect3 week5) and 2) updated image
             id: 'Aspect3-Week-Five',
-            title: 'Health Visits Week 5',
+            title: 'Health Visits Week 5 & 6',
             image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/src/vanilla-js/images/COVIDVisitsHIV.png',
-            description: 'By week 5, the outbreak has caused an unsustainable strain on exisiting healthcare worker capacity.',
+            description: 'By week 5, the outbreak has caused an unsustainable strain on exisiting healthcare worker capacity. By week 6, the healthcare system will be so overloaded, irreparable damage will likely have occurred.',
             location: {
                 center: [35.40804, -0.19256],
                 zoom: 5.71,
@@ -269,38 +267,6 @@ var config = {
                 opacity: 0
             }]
         },
-
-        {
-            //Needs updated map based on aspect3 week6.  Needs map in call out box of aspect 3 week1.  Include caption for the call out box map, "Total Health Visits Week One
-            id: 'Aspect3-Week-Six',
-            title: 'Health Visits Week 6',
-            description: 'By week 6, the healthcare system will be so overloaded, irreparable damage will likely have occurred.',
-            location: {
-                center: [35.40804, -0.19256],
-                zoom: 5.71,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            onChapterEnter: [{
-                layer: 'April 8th - Doc Week5-6',
-                opacity: 0.45
-            },
-            {
-                layer: 'April 8th - Nurse Week5-6',
-                opacity: 0.45
-            }
-        ],
-            onChapterExit: [{
-                layer: 'April 8th - Doc Week5-6',
-                opacity: 0.
-            },
-            {
-                layer: 'April 8th - Nurse Week5-6',
-                opacity: 0
-            }]
-        },
-
-
     ]
 };
 
