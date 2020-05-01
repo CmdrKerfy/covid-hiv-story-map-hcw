@@ -6,7 +6,7 @@ var config = {
     alignment: 'left',
     title: 'How COVID-19 Could Overload Healthcare Workers in Kenya',
     subtitle: 'Six Week Projections',
-    footer: 'Source: PEPFAR',
+    footer: 'Source of Data: PEPFAR <br /> Source of Images: PEPFAR, Getty Images, Associated Press, VOA News, Bloomberg News, BBC News, Ruters, Al Jazeera, National Media Group, and Wikicommons',
     chapters: [{
             // Outstanding: 1) Need new picture.  
             id: 'Intro',
@@ -29,6 +29,46 @@ var config = {
                 opacity: 0.
             }]
     },
+    {
+        // Outstanding: 1) Need new picture.  
+        id: 'Scenario1-Intro',
+        image: '/img/chapter_titles/s1.png',
+        location: {
+            center: [35.40804, -0.19256],
+            zoom: 5.71,
+            pitch: 0.00,
+            bearing: 0.00
+        },
+        onChapterEnter: [{
+            layer: 'April 8th - Doc CURR',
+            opacity: 0
+        }
+    ],
+        onChapterExit: [{
+            layer: 'April 8th - Doc CURR',
+            opacity: 0.
+        }]
+},
+{
+    // Outstanding: 1) Need new picture.  
+    id: 'Scenario1-Explain',
+    description: 'Scenario 1 from the model is considered to be the best case scenario.',
+    location: {
+        center: [35.40804, -0.19256],
+        zoom: 5.71,
+        pitch: 0.00,
+        bearing: 0.00
+    },
+    onChapterEnter: [{
+        layer: 'April 8th - Doc CURR',
+        opacity: 0
+    }
+],
+    onChapterExit: [{
+        layer: 'April 8th - Doc CURR',
+        opacity: 0.
+    }]
+},
         
         {
             // Outstanding: 1) needs a small legend (doctors= blue; nurses=red) added to call out box.  2) Maps added as outlined in description.
@@ -148,7 +188,7 @@ var config = {
             //Outstanding: map needs to be updated to reflect week three of aspect 3 2)new image neededid: 'Week4',
             id: 'Aspect3-Week-Three',
             title: 'Week Three Health Visits',
-            //image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/src/vanilla-js/images/week3chart.png',
+            image: '/img/news/ap1.jpg',
             description: 'By week three, the demand is already far outpacing capacity.',
             location: {
                 center: [35.40804, -0.19256],
@@ -179,7 +219,7 @@ var config = {
             //Outstanding: Needs updated map based on aspect3 week4
             id: 'Aspect3-Week-Four',
             title: 'Week Four Health Visits',
-            // image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/src/vanilla-js/images/COVIDVisitsHIV.png',
+            image: '/img/news/bloomberg1.jpg',
             description: 'By week 4, both doctor and nurse capacity are projected to be just a fraction of current status.',
             location: {
                 center: [35.40804, -0.19256],
@@ -236,7 +276,57 @@ var config = {
                 opacity: 0
             }]
         },
-    ]
+
+        {
+            // Outstanding: 1) Need new picture.  
+            id: 'Scenario2-Intro',
+            image: '/img/chapter_titles/s1.png',
+            location: {
+                center: [35.40804, -0.19256],
+                zoom: 5.71,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            onChapterEnter: [{
+                layer: 'April 8th - Doc CURR',
+                opacity: 0
+            }
+        ],
+            onChapterExit: [{
+                layer: 'April 8th - Doc CURR',
+                opacity: 0.
+            }]
+    },
+
+    {
+        // Outstanding: 1) Need new picture.  
+        id: 'Scenario2-Explain',
+        description: 'In Scenario 2, Doctors will see fewer HIV patients for general health visits than the baseline. Likewise, nurses would see fewer PLHIV for general health visits, and medical officers would see more PLHIV for general health than the baseline.',
+        location: {
+            center: [35.40804, -0.19256],
+            zoom: 5.71,
+            pitch: 0.00,
+            bearing: 0.00
+        },
+        onChapterEnter: [{
+            layer: 'April 8th - Doc CURR',
+            opacity: 0
+        }
+    ],
+        onChapterExit: [{
+            layer: 'April 8th - Doc CURR',
+            opacity: 0.
+        }]
+    },
+    
+
+
+
+
+
+
+
+]
 };
 
 
