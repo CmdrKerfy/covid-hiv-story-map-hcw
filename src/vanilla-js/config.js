@@ -75,9 +75,9 @@ var config = {
 
         {
             id: 'Scenarios-Diff',
-            title: 'Scenario 1 vs Scenario 5',
+            title: 'Scenario #1 vs Scenario #5',
             image: '/img/wikicom/h21.jpg',
-            description: 'Please note that the Scenario 1 (Base) is considered the best case within the context of this study. Conversely, Scenario 5 illustrates the worst outcome from a COVID outbreak.',
+            description: 'Please note that the Scenario #1 (Base) is considered the best case within the context of this study. Conversely, Scenario #5 illustrates the worst outcome from a COVID outbreak.',
             location: {
                 center: [35.40804, -0.19256],
                 zoom: 5.71,
@@ -412,7 +412,7 @@ var config = {
 
     {
         id: 'PLHIV-S1-Week1',
-        title: 'Scenario 1, WEEK 1',
+        title: 'Scenario #1, WEEK 1',
         description: 'Starting with the Base Scenario, we can see the effects of COIVD on the number of people living with HIV visiting meidcal facilities.',
         location: {
             center: [35.40804, -0.19256],
@@ -433,7 +433,7 @@ var config = {
     
     {
         id: 'PLHIV-S1-Week6',
-        title: 'Scenario 1, WEEK 6',
+        title: 'Scenario #1, WEEK 6',
         image: 'img/graph/image.png',
         description: '...and the expected increase by week 6.',
         location: {
@@ -455,8 +455,8 @@ var config = {
 
     {
         id: 'PLHIV-S5-Week1',
-        title: 'Scenario 5, Week 1',
-        description: 'Similarly, we can look at Scenario 5 to see an increased burden, starting with week 1.',
+        title: 'Scenario #5, Week 1',
+        description: 'Similarly, we can look at Scenario #5 to see an increased burden, starting with week 1.',
         location: {
             center: [35.40804, -0.19256],
             zoom: 5.71,
@@ -476,7 +476,8 @@ var config = {
     
     {
         id: 'PLHIV-S5-Week6',
-        title: 'Scenario 5, Week 6',
+        title: 'Scenario #5, Week 6',
+        //description: 'In contrast, the last week of scenario #5:',
         image: 'img/graph/image.png',
         location: {
             center: [35.40804, -0.19256],
@@ -498,7 +499,7 @@ var config = {
     {
         id: 'PLHIV-COVID-S1',
         title: 'People Living with HIV (No Viral Supression)',
-        description: 'We can also use the models in this study to examine the relationship between COVID and the HIV population that is not virally suppressed. <br /> <br /> This map depicts the amount of people non-virally suppressed HIV population expected to become infected by COVID-19, based on Scenario 1 (Base)',
+        description: 'We can also use the models in this study to examine the relationship between COVID and the HIV population that is not virally suppressed. <br /> <br /> This map depicts the amount of people non-virally suppressed HIV population expected to become infected by COVID-19, based on Scenario #1 (Base)',
         location: {
             center: [35.40804, -0.19256],
             zoom: 5.71,
@@ -518,10 +519,9 @@ var config = {
     
     {
         id: 'PLHIV-COVID-S4',
-        title: 'Scenario 5 [WEEK 6]',
-        description: '...in comparison to Scenario 5.',
+        title: 'Scenario #5, Week 6',
+        //description: 'In comparison, Scenario #5.',
         image: 'img/graph/image.png',
-        description: '',
         location: {
             center: [35.40804, -0.19256],
             zoom: 5.71,
