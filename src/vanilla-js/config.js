@@ -8,7 +8,7 @@ var config = {
     subtitle: 'Six Week Projections',
     footer: 'Source of Data: PEPFAR <br /> Source of Images: PEPFAR, Getty Images, Associated Press, VOA News, Bloomberg News, BBC News, Ruters, Al Jazeera, National Media Group, and Wikicommons',
     chapters: [
-        
+
         {
             id: 'Intro',
             title: 'Visualing the Strain on Healthcare Workers in Kenya',
@@ -23,8 +23,7 @@ var config = {
             onChapterEnter: [{
                 layer: 'April 8th - Doc CURR',
                 opacity: 0
-            }
-        ],
+            }],
             onChapterExit: [{
                 layer: 'April 8th - Doc CURR',
                 opacity: 0.
@@ -43,34 +42,32 @@ var config = {
             onChapterEnter: [{
                 layer: 'April 8th - Doc CURR',
                 opacity: 0
-            }
-        ],
-        onChapterExit: [{
-            layer: 'April 8th - Doc CURR',
-            opacity: 0.
-        }]
+            }],
+            onChapterExit: [{
+                layer: 'April 8th - Doc CURR',
+                opacity: 0.
+            }]
         },
 
         {
-        id: 'Scenarios-Intro',
-        title: 'What is this Study?',
-        image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/img/wikicom/h13.jpg',
-        description: 'This study is saldkfj;askldjf;aslkdf. <br /> <br /> Included within these maps are five scenarios. Unless otherwise stated, all visualizations will depict the base scenario, with significant differences highlighted when applicable.',
-        location: {
-            center: [35.40804, -0.19256],
-            zoom: 5.71,
-            pitch: 0.00,
-            bearing: 0.00
-        },
-        onChapterEnter: [{
-            layer: 'April 8th - Doc CURR',
-            opacity: 0
-        }
-        ],
-        onChapterExit: [{
-            layer: 'April 8th - Doc CURR',
-            opacity: 0.
-        }]
+            id: 'Scenarios-Intro',
+            title: 'What is this Study?',
+            image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/img/wikicom/h13.jpg',
+            description: 'This study is saldkfj;askldjf;aslkdf. <br /> <br /> Included within these maps are five scenarios. Unless otherwise stated, all visualizations will depict the base scenario, with significant differences highlighted when applicable.',
+            location: {
+                center: [35.40804, -0.19256],
+                zoom: 5.71,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            onChapterEnter: [{
+                layer: 'April 8th - Doc CURR',
+                opacity: 0
+            }],
+            onChapterExit: [{
+                layer: 'April 8th - Doc CURR',
+                opacity: 0.
+            }]
         },
 
         {
@@ -87,13 +84,12 @@ var config = {
             onChapterEnter: [{
                 layer: 'April 8th - Doc CURR',
                 opacity: 0
-            }
-            ],
+            }],
             onChapterExit: [{
                 layer: 'April 8th - Doc CURR',
                 opacity: 0.
             }]
-            },
+        },
 
         {
             id: 'Gen-Intro',
@@ -107,14 +103,13 @@ var config = {
             onChapterEnter: [{
                 layer: 'April 8th - Doc CURR',
                 opacity: 0
-            }
-        ],
-        onChapterExit: [{
-            layer: 'April 8th - Doc CURR',
-            opacity: 0.
-        }]
+            }],
+            onChapterExit: [{
+                layer: 'April 8th - Doc CURR',
+                opacity: 0.
+            }]
         },
-        
+
         {
             id: 'Aspect-1',
             title: 'An Expected Decrease in Available Healthcare Workers',
@@ -127,22 +122,23 @@ var config = {
                 bearing: 0.00
             },
             onChapterEnter: [{
-                layer: 'April 8th - Doc Week5-6',
-                opacity: 0.45
-            },
-            {
-                layer: 'April 8th - Nurse Week5-6',
-                opacity: 0.45
-            }
-        ],
+                    layer: 'April 8th - Doc Week5-6',
+                    opacity: 0.45
+                },
+                {
+                    layer: 'April 8th - Nurse Week5-6',
+                    opacity: 0.45
+                }
+            ],
             onChapterExit: [{
-                layer: 'April 8th - Doc Week5-6',
-                opacity: 0.
-            },
-            {
-                layer: 'April 8th - Nurse Week5-6',
-                opacity: 0
-            }]
+                    layer: 'April 8th - Doc Week5-6',
+                    opacity: 0.
+                },
+                {
+                    layer: 'April 8th - Nurse Week5-6',
+                    opacity: 0
+                }
+            ]
         },
 
         {
@@ -157,8 +153,7 @@ var config = {
             onChapterEnter: [{
                 layer: 'Lamu-isiolo',
                 opacity: 0.45
-            }
-        ],
+            }],
             onChapterExit: [{
                 layer: 'Lamu-isiolo',
                 opacity: 0.
@@ -176,27 +171,26 @@ var config = {
                 pitch: 0.00,
                 bearing: 0.00
             },
-            onChapterEnter: [
-            {
-                layer: 'April 8th - Nurse Week1',
-                opacity: 0.45
-            },
-            {
-                layer: 'April 8th - Doc Week1',
-                opacity: 0.45
-            }
-        ],
-            onChapterExit: [
-            {
-                layer: 'April 8th - Nurse Week1',
-                opacity: 0
-            },
-            {
-                layer: 'April 8th - Doc Week1',
-                opacity: 0
-            }]
+            onChapterEnter: [{
+                    layer: 'April 8th - Nurse Week1',
+                    opacity: 0.45
+                },
+                {
+                    layer: 'April 8th - Doc Week1',
+                    opacity: 0.45
+                }
+            ],
+            onChapterExit: [{
+                    layer: 'April 8th - Nurse Week1',
+                    opacity: 0
+                },
+                {
+                    layer: 'April 8th - Doc Week1',
+                    opacity: 0
+                }
+            ]
         },
-    
+
         {
             id: 'Aspect3-Week-Two',
             title: 'Week Two Health Visits',
@@ -209,22 +203,23 @@ var config = {
                 bearing: 0.00
             },
             onChapterEnter: [{
-                layer: 'April 8th - Doc Week2',
-                opacity: 0.45
-            },
-            {
-                layer: 'April 8th - Nurse Week2',
-                opacity: 0.45
-            }
-        ],
+                    layer: 'April 8th - Doc Week2',
+                    opacity: 0.45
+                },
+                {
+                    layer: 'April 8th - Nurse Week2',
+                    opacity: 0.45
+                }
+            ],
             onChapterExit: [{
-                layer: 'April 8th - Doc Week2',
-                opacity: 0.
-            },
-            {
-                layer: 'April 8th - Nurse Week2',
-                opacity: 0
-            }]
+                    layer: 'April 8th - Doc Week2',
+                    opacity: 0.
+                },
+                {
+                    layer: 'April 8th - Nurse Week2',
+                    opacity: 0
+                }
+            ]
         },
 
         {
@@ -239,22 +234,23 @@ var config = {
                 bearing: 0.00
             },
             onChapterEnter: [{
-                layer: 'April 8th - Doc Week3',
-                opacity: 0.45
-            },
-            {
-                layer: 'April 8th - Nurse Week3',
-                opacity: 0.45
-            }
-        ],
+                    layer: 'April 8th - Doc Week3',
+                    opacity: 0.45
+                },
+                {
+                    layer: 'April 8th - Nurse Week3',
+                    opacity: 0.45
+                }
+            ],
             onChapterExit: [{
-                layer: 'April 8th - Doc Week3',
-                opacity: 0.
-            },
-            {
-                layer: 'April 8th - Nurse Week3',
-                opacity: 0
-            }]
+                    layer: 'April 8th - Doc Week3',
+                    opacity: 0.
+                },
+                {
+                    layer: 'April 8th - Nurse Week3',
+                    opacity: 0
+                }
+            ]
         },
 
         {
@@ -269,22 +265,23 @@ var config = {
                 bearing: 0.00
             },
             onChapterEnter: [{
-                layer: 'April 8th - Doc Week4',
-                opacity: 0.45
-            },
-            {
-                layer: 'April 8th - Nurse Week4',
-                opacity: 0.45
-            }
-        ],
+                    layer: 'April 8th - Doc Week4',
+                    opacity: 0.45
+                },
+                {
+                    layer: 'April 8th - Nurse Week4',
+                    opacity: 0.45
+                }
+            ],
             onChapterExit: [{
-                layer: 'April 8th - Doc Week4',
-                opacity: 0.
-            },
-            {
-                layer: 'April 8th - Nurse Week4',
-                opacity: 0
-            }]
+                    layer: 'April 8th - Doc Week4',
+                    opacity: 0.
+                },
+                {
+                    layer: 'April 8th - Nurse Week4',
+                    opacity: 0
+                }
+            ]
         },
 
         {
@@ -299,22 +296,23 @@ var config = {
                 bearing: 0.00
             },
             onChapterEnter: [{
-                layer: 'April 8th - Doc Week5-6',
-                opacity: 0.45
-            },
-            {
-                layer: 'April 8th - Nurse Week5-6',
-                opacity: 0.45
-            }
-        ],
+                    layer: 'April 8th - Doc Week5-6',
+                    opacity: 0.45
+                },
+                {
+                    layer: 'April 8th - Nurse Week5-6',
+                    opacity: 0.45
+                }
+            ],
             onChapterExit: [{
-                layer: 'April 8th - Doc Week5-6',
-                opacity: 0.
-            },
-            {
-                layer: 'April 8th - Nurse Week5-6',
-                opacity: 0
-            }]
+                    layer: 'April 8th - Doc Week5-6',
+                    opacity: 0.
+                },
+                {
+                    layer: 'April 8th - Nurse Week5-6',
+                    opacity: 0
+                }
+            ]
         },
 
         // {
@@ -347,27 +345,26 @@ var config = {
         //     }]
         // },
 
-    {
-    id: 'MO-Explain',
-    title: 'A Special Note on Medical Officers',
-    image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/img/wikicom/h26.jpg',
-    description: 'Medical Officers are appointed by the government and typically focused on preventive care. Their role can vary between technical and managerial roles, depending on clinc needs. While accounted for in this study, their numbers stay relatively consistent throughout the predicted outbreak.',
-    location: {
-        center: [35.40804, -0.19256],
-        zoom: 5.71,
-        pitch: 0.00,
-        bearing: 0.00
-    },
-    onChapterEnter: [{
-        layer: 'April 8th - Doc CURR',
-        opacity: 0
-    }
-    ],
-    onChapterExit: [{
-        layer: 'April 8th - Doc CURR',
-        opacity: 0.
-    }]
-    },
+        {
+            id: 'MO-Explain',
+            title: 'A Special Note on Medical Officers',
+            image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/img/wikicom/h26.jpg',
+            description: 'Medical Officers are appointed by the government and typically focused on preventive care. Their role can vary between technical and managerial roles, depending on clinc needs. While accounted for in this study, their numbers stay relatively consistent throughout the predicted outbreak.',
+            location: {
+                center: [35.40804, -0.19256],
+                zoom: 5.71,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            onChapterEnter: [{
+                layer: 'April 8th - Doc CURR',
+                opacity: 0
+            }],
+            onChapterExit: [{
+                layer: 'April 8th - Doc CURR',
+                opacity: 0.
+            }]
+        },
 
         {
             id: 'PLHIV-Intro',
@@ -381,209 +378,199 @@ var config = {
             onChapterEnter: [{
                 layer: 'April 8th - Doc CURR',
                 opacity: 0
-            }
-        ],
+            }],
             onChapterExit: [{
                 layer: 'April 8th - Doc CURR',
                 opacity: 0.
             }]
         },
 
-    {
-        id: 'PLHIV-Explain',
-        title: 'Current HIV-Positive Kenyan Patients',
-        description: 'While we started this visualization on doctors, nurses, and medical offiers, it is important to also focus on the effects COVID will have on people living with HIV',
-        location: {
-            center: [35.40804, -0.19256],
-            zoom: 5.71,
-            pitch: 0.00,
-            bearing: 0.00
+        {
+            id: 'PLHIV-Explain',
+            title: 'Current HIV-Positive Kenyan Patients',
+            description: 'While we started this visualization on doctors, nurses, and medical offiers, it is important to also focus on the effects COVID will have on people living with HIV',
+            location: {
+                center: [35.40804, -0.19256],
+                zoom: 5.71,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            onChapterEnter: [{
+                layer: 'April 8th - Doc CURR',
+                opacity: 0
+            }],
+            onChapterExit: [{
+                layer: 'April 8th - Doc CURR',
+                opacity: 0.
+            }]
         },
-        onChapterEnter: [{
-            layer: 'April 8th - Doc CURR',
-            opacity: 0
-        }
-    ],
-        onChapterExit: [{
-            layer: 'April 8th - Doc CURR',
-            opacity: 0.
-        }]
-    },
 
-    {
-        id: 'PLHIV-S1-Week1',
-        title: 'Scenario #1, WEEK 1',
-        description: 'Starting with the Base Scenario, we can see the effects of COIVD on the number of people living with HIV visiting meidcal facilities.',
-        location: {
-            center: [35.40804, -0.19256],
-            zoom: 5.71,
-            pitch: 0.00,
-            bearing: 0.00
+        {
+            id: 'PLHIV-S1-Week1',
+            title: 'Scenario #1, WEEK 1',
+            description: 'Starting with the Base Scenario, we can see the effects of COIVD on the number of people living with HIV visiting meidcal facilities.',
+            location: {
+                center: [35.40804, -0.19256],
+                zoom: 5.71,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            onChapterEnter: [{
+                layer: 'PLHIV Visits S1W1',
+                opacity: 0.45
+            }],
+            onChapterExit: [{
+                layer: 'PLHIV Visits S1W1',
+                opacity: 0.
+            }]
         },
-        onChapterEnter: [{
-            layer: 'PLHIV Visits S1W1',
-            opacity: 0.45
-        }
-    ],
-        onChapterExit: [{
-            layer: 'PLHIV Visits S1W1',
-            opacity: 0.
-        }]
-    },
-    
-    {
-        id: 'PLHIV-S1-Week6',
-        title: 'Scenario #1, WEEK 6',
-        image: 'img/graph/image.png',
-        description: '...and the expected increase by week 6.',
-        location: {
-            center: [35.40804, -0.19256],
-            zoom: 5.71,
-            pitch: 0.00,
-            bearing: 0.00
-        },
-        onChapterEnter: [{
-            layer: 'PLHIV Visits S1W6',
-            opacity: 0.45
-        }
-    ],
-        onChapterExit: [{
-            layer: 'PLHIV Visits S1W6',
-            opacity: 0.
-        }]
-    },
 
-    {
-        id: 'PLHIV-S5-Week1',
-        title: 'Scenario #5, Week 1',
-        description: 'Similarly, we can look at Scenario #5 to see an increased burden, starting with week 1.',
-        location: {
-            center: [35.40804, -0.19256],
-            zoom: 5.71,
-            pitch: 0.00,
-            bearing: 0.00
+        {
+            id: 'PLHIV-S1-Week6',
+            title: 'Scenario #1, WEEK 6',
+            image: 'img/graph/image.png',
+            description: '...and the expected increase by week 6.',
+            location: {
+                center: [35.40804, -0.19256],
+                zoom: 5.71,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            onChapterEnter: [{
+                layer: 'PLHIV Visits S1W6',
+                opacity: 0.45
+            }],
+            onChapterExit: [{
+                layer: 'PLHIV Visits S1W6',
+                opacity: 0.
+            }]
         },
-        onChapterEnter: [{
-            layer: 'PLHIV Visits S5W1',
-            opacity: 0.45
-        }
-    ],
-        onChapterExit: [{
-            layer: 'PLHIV Visits S5W1',
-            opacity: 0.
-        }]
-    },
-    
-    {
-        id: 'PLHIV-S5-Week6',
-        title: 'Scenario #5, Week 6',
-        //description: 'In contrast, the last week of scenario #5:',
-        image: 'img/graph/image.png',
-        location: {
-            center: [35.40804, -0.19256],
-            zoom: 5.71,
-            pitch: 0.00,
-            bearing: 0.00
-        },
-        onChapterEnter: [{
-            layer: 'PLHIV Visits S5W6',
-            opacity: 0.45
-        }
-    ],
-        onChapterExit: [{
-            layer: 'PLHIV Visits S5W6',
-            opacity: 0.
-        }]
-    },
 
-    {
-        id: 'PLHIV-COVID-S1',
-        title: 'People Living with HIV (No Viral Supression)',
-        description: 'We can also use the models in this study to examine the relationship between COVID and the HIV population that is not virally suppressed. <br /> <br /> This map depicts the amount of people non-virally suppressed HIV population expected to become infected by COVID-19, based on Scenario #1 (Base)',
-        location: {
-            center: [35.40804, -0.19256],
-            zoom: 5.71,
-            pitch: 0.00,
-            bearing: 0.00
+        {
+            id: 'PLHIV-S5-Week1',
+            title: 'Scenario #5, Week 1',
+            description: 'Similarly, we can look at Scenario #5 to see an increased burden, starting with week 1.',
+            location: {
+                center: [35.40804, -0.19256],
+                zoom: 5.71,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            onChapterEnter: [{
+                layer: 'PLHIV Visits S5W1',
+                opacity: 0.45
+            }],
+            onChapterExit: [{
+                layer: 'PLHIV Visits S5W1',
+                opacity: 0.
+            }]
         },
-        onChapterEnter: [{
-            layer: 'PLHIV NVS COVID S1',
-            opacity: 0.45
-        }
-    ],
-        onChapterExit: [{
-            layer: 'PLHIV NVS COVID S1',
-            opacity: 0.
-        }]
-    },
-    
-    {
-        id: 'PLHIV-COVID-S4',
-        title: 'Scenario #5, Week 6',
-        //description: 'In comparison, Scenario #5.',
-        image: 'img/graph/image.png',
-        location: {
-            center: [35.40804, -0.19256],
-            zoom: 5.71,
-            pitch: 0.00,
-            bearing: 0.00
-        },
-        onChapterEnter: [{
-            layer: 'PLHIV NVS COVID S6',
-            opacity: 0.45
-        }
-    ],
-        onChapterExit: [{
-            layer: 'PLHIV NVS COVID S6',
-            opacity: 0.
-        }]
-    },
-    
-    {
-        id: 'NextSteps-Intro',
-        image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/img/chapter_titles/nextsteps.png',
-        location: {
-            center: [35.40804, -0.19256],
-            zoom: 5.71,
-            pitch: 0.00,
-            bearing: 0.00
-        },
-        onChapterEnter: [{
-            layer: 'April 8th - Doc CURR',
-            opacity: 0.45
-        }
-    ],
-        onChapterExit: [{
-            layer: 'April 8th - Doc CURR',
-            opacity: 0.
-        }]
-    },
 
-    {
-        id: 'NextSteps-Explain',
-        // title: 'Putting it All Together',
-        image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/img/wikicom/h7.jpg',
-        description: '******INSERT SOME CLOSING STATEMENT******',
-        location: {
-            center: [35.40804, -0.19256],
-            zoom: 5.71,
-            pitch: 0.00,
-            bearing: 0.00
+        {
+            id: 'PLHIV-S5-Week6',
+            title: 'Scenario #5, Week 6',
+            //description: 'In contrast, the last week of scenario #5:',
+            image: 'img/graph/image.png',
+            location: {
+                center: [35.40804, -0.19256],
+                zoom: 5.71,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            onChapterEnter: [{
+                layer: 'PLHIV Visits S5W6',
+                opacity: 0.45
+            }],
+            onChapterExit: [{
+                layer: 'PLHIV Visits S5W6',
+                opacity: 0.
+            }]
         },
-        onChapterEnter: [{
-            layer: 'April 8th - Doc CURR',
-            opacity: 0.45
-        }
-    ],
-        onChapterExit: [{
-            layer: 'April 8th - Doc CURR',
-            opacity: 0.
-        }]
-    },
+
+        {
+            id: 'PLHIV-COVID-S1',
+            title: 'People Living with HIV (No Viral Supression)',
+            description: 'We can also use the models in this study to examine the relationship between COVID and the HIV population that is not virally suppressed. <br /> <br /> This map depicts the amount of people non-virally suppressed HIV population expected to become infected by COVID-19, based on Scenario #1 (Base)',
+            location: {
+                center: [35.40804, -0.19256],
+                zoom: 5.71,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            onChapterEnter: [{
+                layer: 'PLHIV NVS COVID S1',
+                opacity: 0.45
+            }],
+            onChapterExit: [{
+                layer: 'PLHIV NVS COVID S1',
+                opacity: 0.
+            }]
+        },
+
+        {
+            id: 'PLHIV-COVID-S4',
+            title: 'Scenario #5, Week 6',
+            //description: 'In comparison, Scenario #5.',
+            image: 'img/graph/image.png',
+            location: {
+                center: [35.40804, -0.19256],
+                zoom: 5.71,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            onChapterEnter: [{
+                layer: 'PLHIV NVS COVID S6',
+                opacity: 0.45
+            }],
+            onChapterExit: [{
+                layer: 'PLHIV NVS COVID S6',
+                opacity: 0.
+            }]
+        },
+
+        {
+            id: 'NextSteps-Intro',
+            image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/img/chapter_titles/nextsteps.png',
+            location: {
+                center: [35.40804, -0.19256],
+                zoom: 5.71,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            onChapterEnter: [{
+                layer: 'April 8th - Doc CURR',
+                opacity: 0.45
+            }],
+            onChapterExit: [{
+                layer: 'April 8th - Doc CURR',
+                opacity: 0.
+            }]
+        },
+
+        {
+            id: 'NextSteps-Explain',
+            // title: 'Putting it All Together',
+            image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/img/wikicom/h7.jpg',
+            description: '******INSERT SOME CLOSING STATEMENT******',
+            location: {
+                center: [35.40804, -0.19256],
+                zoom: 5.71,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            onChapterEnter: [{
+                layer: 'April 8th - Doc CURR',
+                opacity: 0.45
+            }],
+            onChapterExit: [{
+                layer: 'April 8th - Doc CURR',
+                opacity: 0.
+            }]
+        },
 
 
 
-]
+    ]
 };
 
 
