@@ -33,7 +33,7 @@ var config = {
 
         {
             id: 'Intro-Intro',
-            image: '/img/chapter_titles/GenNotes.png',
+            image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/img/chapter_titles/GenNotes.png',
             location: {
                 center: [35.40804, -0.19256],
                 zoom: 5.71,
@@ -54,7 +54,7 @@ var config = {
         {
         id: 'Scenarios-Intro',
         title: 'What is this Study?',
-        image: '/img/wikicom/h13.jpg',
+        image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/img/wikicom/h13.jpg',
         description: 'This study is saldkfj;askldjf;aslkdf. <br /> <br /> Included within these maps are five scenarios. Unless otherwise stated, all visualizations will depict the base scenario, with significant differences highlighted when applicable.',
         location: {
             center: [35.40804, -0.19256],
@@ -76,7 +76,7 @@ var config = {
         {
             id: 'Scenarios-Diff',
             title: 'Scenario #1 vs Scenario #5',
-            image: '/img/wikicom/h21.jpg',
+            image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/img/wikicom/h21.jpg',
             description: 'Please note that the Scenario #1 (Base) is considered the best case within the context of this study. Conversely, Scenario #5 illustrates the worst outcome from a COVID outbreak.',
             location: {
                 center: [35.40804, -0.19256],
@@ -97,7 +97,7 @@ var config = {
 
         {
             id: 'Gen-Intro',
-            image: '/img/chapter_titles/hcstaff.png',
+            image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/img/chapter_titles/hcstaff.png',
             location: {
                 center: [35.40804, -0.19256],
                 zoom: 5.71,
@@ -118,7 +118,7 @@ var config = {
         {
             id: 'Aspect-1',
             title: 'An Expected Decrease in Available Healthcare Workers',
-            image: '/img/WeekOne_2.png',
+            image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/img/WeekOne_2.png',
             description: 'If current trends continue, COVID-19 will likely significantly reduce the number of available healthcare workers in Kenya. As infections increase, more and more healthcare workers will become affected and be unable to provide healthcare services. The map in this box shows the number of available doctors and nurses currently, and the large map shows the projected number of available doctors and nurses in six weeks.',
             location: {
                 center: [35.40804, -0.19256],
@@ -200,7 +200,7 @@ var config = {
         {
             id: 'Aspect3-Week-Two',
             title: 'Week Two Health Visits',
-            image: '/img/wikicom/h6.jpg',
+            image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/img/wikicom/h6.jpg',
             description: 'By week two, the increase in health visit demand by the total population will begin to strain the limited number of available healthcare workers as the number of visits shift sharply upward.',
             location: {
                 center: [35.40804, -0.19256],
@@ -230,7 +230,7 @@ var config = {
         {
             id: 'Aspect3-Week-Three',
             title: 'Week Three Health Visits',
-            image: '/img/news/ap1.jpg',
+            image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/img/news/ap1.jpg',
             description: 'By week three, the demand is already far outpacing capacity.',
             location: {
                 center: [35.40804, -0.19256],
@@ -260,7 +260,7 @@ var config = {
         {
             id: 'Aspect3-Week-Four',
             title: 'Week Four Health Visits',
-            image: '/img/news/bloomberg1.jpg',
+            image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/img/news/bloomberg1.jpg',
             description: 'By week 4, both doctor and nurse capacity are projected to be just a fraction of current status.',
             location: {
                 center: [35.40804, -0.19256],
@@ -350,7 +350,7 @@ var config = {
     {
     id: 'MO-Explain',
     title: 'A Special Note on Medical Officers',
-    image: '/img/wikicom/h26.jpg',
+    image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/img/wikicom/h26.jpg',
     description: 'Medical Officers are appointed by the government and typically focused on preventive care. Their role can vary between technical and managerial roles, depending on clinc needs. While accounted for in this study, their numbers stay relatively consistent throughout the predicted outbreak.',
     location: {
         center: [35.40804, -0.19256],
@@ -371,7 +371,7 @@ var config = {
 
         {
             id: 'PLHIV-Intro',
-            image: '/img/chapter_titles/PLHIV.png',
+            image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/img/chapter_titles/PLHIV.png',
             location: {
                 center: [35.40804, -0.19256],
                 zoom: 5.71,
@@ -541,7 +541,7 @@ var config = {
     
     {
         id: 'NextSteps-Intro',
-        image: '/img/chapter_titles/nextsteps.png',
+        image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/img/chapter_titles/nextsteps.png',
         location: {
             center: [35.40804, -0.19256],
             zoom: 5.71,
@@ -562,7 +562,7 @@ var config = {
     {
         id: 'NextSteps-Explain',
         // title: 'Putting it All Together',
-        image: '/img/wikicom/h7.jpg',
+        image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/img/wikicom/h7.jpg',
         description: '******INSERT SOME CLOSING STATEMENT******',
         location: {
             center: [35.40804, -0.19256],
