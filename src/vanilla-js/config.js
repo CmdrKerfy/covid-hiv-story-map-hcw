@@ -51,9 +51,9 @@ var config = {
 
         {
             id: 'Scenarios-Intro',
-            title: 'What is this Study?',
+            title: 'Study Background',
             image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/img/wikicom/h13.jpg',
-            description: 'This study is saldkfj;askldjf;aslkdf. <br /> <br /> Included within these maps are five scenarios. Unless otherwise stated, all visualizations will depict the base scenario, with significant differences highlighted when applicable.',
+            description: 'As previously mentioned, this study was created to predict the increased burden on PEPFAR\'s HIV programming. The models were established by an intra-agency group of scientists and economists using best practices. <br /> <br /> Included within these maps are five scenarios. Unless otherwise stated, all visualizations will depict the first (base) scenario, with significant differences highlighted when applicable.',
             location: {
                 center: [35.40804, -0.19256],
                 zoom: 5.71,
@@ -407,7 +407,7 @@ var config = {
 
         {
             id: 'PLHIV-S1-Week1',
-            title: 'Scenario #1, WEEK 1',
+            title: 'SCENARIO #1, WEEK 1',
             description: 'Starting with the Base Scenario, we can see the effects of COIVD on the number of people living with HIV visiting meidcal facilities.',
             location: {
                 center: [35.40804, -0.19256],
@@ -427,8 +427,8 @@ var config = {
 
         {
             id: 'PLHIV-S1-Week6',
-            title: 'Scenario #1, WEEK 6',
-            image: 'img/graph/image.png',
+            title: 'SCENARIO #1, WEEK 6',
+            image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/img/wikicom/h14.jpg',
             description: '...and the expected increase by week 6.',
             location: {
                 center: [35.40804, -0.19256],
@@ -448,7 +448,7 @@ var config = {
 
         {
             id: 'PLHIV-S5-Week1',
-            title: 'Scenario #5, Week 1',
+            title: 'SCENARIO #5, WEEK 1',
             description: 'Similarly, we can look at Scenario #5 to see an increased burden, starting with week 1.',
             location: {
                 center: [35.40804, -0.19256],
@@ -468,9 +468,9 @@ var config = {
 
         {
             id: 'PLHIV-S5-Week6',
-            title: 'Scenario #5, Week 6',
+            title: 'SCENARIO #5, WEEK 6',
             //description: 'In contrast, the last week of scenario #5:',
-            image: 'img/graph/image.png',
+            image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/img/news/nationmediagroup.jpg',
             location: {
                 center: [35.40804, -0.19256],
                 zoom: 5.71,
@@ -509,9 +509,9 @@ var config = {
 
         {
             id: 'PLHIV-COVID-S4',
-            title: 'Scenario #5, Week 6',
+            title: 'SCENARIO #5, WEEK 6',
             //description: 'In comparison, Scenario #5.',
-            image: 'img/graph/image.png',
+            image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/img/wikicom/h25.jpg',
             location: {
                 center: [35.40804, -0.19256],
                 zoom: 5.71,
@@ -543,7 +543,7 @@ var config = {
             }],
             onChapterExit: [{
                 layer: 'April 8th - Doc CURR',
-                opacity: 0.
+                opacity: 0
             }]
         },
 
@@ -551,7 +551,7 @@ var config = {
             id: 'NextSteps-Explain',
             // title: 'Putting it All Together',
             image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/img/wikicom/h7.jpg',
-            description: '******INSERT SOME CLOSING STATEMENT******',
+            description: 'We hope that the findings of this study can use by key stakeholders within Kenya to ',
             location: {
                 center: [35.40804, -0.19256],
                 zoom: 5.71,
