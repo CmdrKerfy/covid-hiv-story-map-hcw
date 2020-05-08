@@ -551,7 +551,7 @@ var config = {
             id: 'NextSteps-Explain',
             // title: 'Putting it All Together',
             image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/img/wikicom/h7.jpg',
-            description: 'We hope that the findings of this study can use by key stakeholders within Kenya to ',
+            description: 'We hope that the findings of this study can use by key stakeholders within Kenya to help with their planning and resource allocation',
             location: {
                 center: [35.40804, -0.19256],
                 zoom: 5.71,
