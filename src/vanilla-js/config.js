@@ -539,7 +539,7 @@ var config = {
             },
             onChapterEnter: [{
                 layer: 'April 8th - Doc CURR',
-                opacity: 0.45
+                opacity: 0
             }],
             onChapterExit: [{
                 layer: 'April 8th - Doc CURR',
