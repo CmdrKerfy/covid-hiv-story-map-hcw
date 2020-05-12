@@ -53,7 +53,7 @@ var config = {
             id: 'Scenarios-Intro',
             title: 'Study Background',
             image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/img/wikicom/h13.jpg',
-            description: 'The models were established by an intra-agency group of scientists and economists using best practices. <br /> <br /> Included within these maps are five scenarios. Unless otherwise stated, all visualizations will depict the first (base) scenario, with significant differences highlighted when applicable.',
+            description: 'Included within these maps are five scenarios. Unless otherwise stated, all visualizations will depict the first (base) scenario, with significant differences highlighted when applicable.',
             location: {
                 center: [35.40804, -0.19256],
                 zoom: 5.71,
