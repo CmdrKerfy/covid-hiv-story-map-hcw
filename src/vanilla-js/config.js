@@ -163,8 +163,8 @@ var config = {
         {
             id: 'Aspect3-HIVgraph',
             title: 'An Expected Increase in Health Visits by People Living with HIV',
-            image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/src/vanilla-js/images/kenyahos.jpg',
-            description: 'While the number of nurses and doctors will decrease, the number of health visits will dramatically increase as shown by projected number of COVID visits just by people living with HIV. These maps depicit healthcare capacity within the base scenario',
+            image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/src/vanilla-js/images/COVIDVisitsHIV.png',
+            description: 'While the number of nurses and doctors will decrease, as seeen on the map to the right, the number of health facility visits will simultaneously increase. This dramatic upward trend in demand by the HIV population will begin to strain the shrinking number of healtcare workers by the end of week one.',
             location: {
                 center: [35.40804, -0.19256],
                 zoom: 5.71,
@@ -193,9 +193,9 @@ var config = {
 
         {
             id: 'Aspect3-Week-Two',
-            title: 'Week Two Health Visits',
+            title: 'Week Two Staff Capacity',
             image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/img/wikicom/h6.jpg',
-            description: 'By week two, the increase in health visit demand by the total population will begin to strain the limited number of available healthcare workers as the number of visits shift sharply upward.',
+            description: 'By week two, as the number of healthcare workers becomes smaller, expect people living with HIV to begin experiencing difficulties receiving treatment.',
             location: {
                 center: [35.40804, -0.19256],
                 zoom: 5.71,
@@ -224,9 +224,9 @@ var config = {
 
         {
             id: 'Aspect3-Week-Three',
-            title: 'Week Three Health Visits',
+            title: 'Week Three Staff Capacity',
             image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/img/news/ap1.jpg',
-            description: 'By week three, the demand is already far outpacing capacity.',
+            description: 'By week three, the demand is already far outpacing the continually shrinking workforce.',
             location: {
                 center: [35.40804, -0.19256],
                 zoom: 5.71,
@@ -255,9 +255,9 @@ var config = {
 
         {
             id: 'Aspect3-Week-Four',
-            title: 'Week Four Health Visits',
+            title: 'Week Four Staff Capacity',
             image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/img/news/bloomberg1.jpg',
-            description: 'By week 4, both doctor and nurse capacity are projected to be just a fraction of current status.',
+            description: 'By week 4, both doctor and nurse capacity are projected to be just a fraction of its current status.',
             location: {
                 center: [35.40804, -0.19256],
                 zoom: 5.71,
@@ -286,9 +286,9 @@ var config = {
 
         {
             id: 'Aspect3-Week-Five',
-            title: 'Health Visits Week 5 & 6',
-            image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/src/vanilla-js/images/COVIDVisitsHIV.png',
-            description: '*The graph above depicts the base scenario as a point of reference* <br /> <br /> By week 5 and 6, the outbreak has caused an unsustainable strain on exisiting healthcare worker capacity. By week 6, the healthcare system will be so overloaded, irreparable damage will likely have occurred. ',
+            title: 'Staff Capacity Week 5 & 6',
+            image: 'https://raw.githubusercontent.com/CmdrKerfy/covid-hiv-story-map-hcw/master/src/vanilla-js/images/kenyahos.jpg',
+            description: 'By week 5, the outbreak has caused an unsustainable strain on exisiting healthcare worker capacity. Total available healthcare workers are a fraction of inital capacity. By week 6, the healthcare system will be so overloaded, irreparable damage will likely have occurred. ',
             location: {
                 center: [35.40804, -0.19256],
                 zoom: 5.71,
@@ -388,7 +388,7 @@ var config = {
         {
             id: 'PLHIV-Explain',
             title: 'Current HIV-Positive Kenyan Patients',
-            description: 'While we started this visualization on doctors, nurses, and medical offiers, it is important to also focus on the effects COVID will have on people living with HIV',
+            description: 'While we started this visualization on doctors, nurses, and medical officers, it is important to also focus on the effects COVID will have on people living with HIV.',
             location: {
                 center: [35.40804, -0.19256],
                 zoom: 5.71,
@@ -408,7 +408,7 @@ var config = {
         {
             id: 'PLHIV-S1-Week1',
             title: 'SCENARIO #1, WEEK 1',
-            description: 'Starting with the Base Scenario, we can see the effects of COIVD on the number of people living with HIV visiting meidcal facilities.',
+            description: 'Starting with the Base Scenario, we can see the effects of COVID on the number of people living with HIV visiting medical facilities.',
             location: {
                 center: [35.40804, -0.19256],
                 zoom: 5.71,
@@ -449,7 +449,7 @@ var config = {
         {
             id: 'PLHIV-S5-Week1',
             title: 'SCENARIO #5, WEEK 1',
-            description: 'Similarly, we can look at Scenario #5 to see an increased burden, starting with week 1.',
+            description: 'Similarly, we can look at the Scenario #5 projection of the number facility visits by PLHIV, starting with week 1.',
             location: {
                 center: [35.40804, -0.19256],
                 zoom: 5.71,
